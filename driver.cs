@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class trigger
+    class driver
     {
-
     }
 }

@@ -1,8 +1,5 @@
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\x86\e_sqlite3.dll
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\x64\e_sqlite3.dll
-C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
-C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
-C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\Microsoft.Win32.Primitives.dll
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\netstandard.dll
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\System.AppContext.dll
@@ -202,12 +199,15 @@ C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\System.Reflection
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\EveWindow.csproj.GenerateResource.Cache
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\EveWindow.csproj.CoreCompileInputs.cache
-C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
-C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\EveWindow.csprojResolveAssemblyReference.cache
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Eve.resources
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.userView.resources
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.exe.config
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.exe.config
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.exe
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.pdb
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.exe
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.pdb
