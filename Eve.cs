@@ -36,14 +36,43 @@ namespace WindowsFormsApp1
 
             if(userName == "roger"&&passWord == "roger")
             {
-            userView user = new userView();
+            
             this.Hide();
-            user.ShowDialog();
-            //Get the value of comboBox1 
-            //MessageBox.Show(comboBox1.SelectedText);
-            this.Close();
-            }
 
+                string accountType = comboBox1.SelectedItem.ToString();
+
+                //if(accountType == "Tenant Driver")
+                //{
+                //    userView user = new userView();
+                //    user.ShowDialog();
+                //}
+
+                switch (accountType)
+                {
+                    case "Tenant Driver":
+
+                        userView user = new userView();
+                        user.ShowDialog();
+                        break;
+
+                    case "Private Charger Opeartor":
+                        userView user1 = new userView();
+                        user1.ShowDialog();
+                        break;
+
+                    case "Local Energy ProviderTenant Driver":
+                        userView user2 = new userView();
+                        user2.ShowDialog();
+                        break;
+
+                    case "EV Fleet":
+                        userView user3 = new userView();
+                        user3.ShowDialog();
+                        break;
+                }
+
+                this.Close();
+            }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
