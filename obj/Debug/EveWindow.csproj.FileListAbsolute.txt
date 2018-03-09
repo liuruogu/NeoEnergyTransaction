@@ -211,3 +211,4 @@ C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.exe
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.pdb
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.exe
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.pdb
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.defDriverContract.resources

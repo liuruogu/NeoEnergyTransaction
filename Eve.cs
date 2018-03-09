@@ -34,13 +34,15 @@ namespace WindowsFormsApp1
             string userName = textBox1.Text;
             string passWord = textBox2.Text;
 
-            if(userName == "roger"&&passWord == "roger")
-            {
-            
-            this.Hide();
+            //if(comboBox1.SelectedItem!= null)
+            //{ }
+            //    string accountType = comboBox1.SelectedItem.ToString();
 
+            if (userName == "roger"&&passWord == "roger"&&comboBox1.SelectedItem != null)
+            {
                 string accountType = comboBox1.SelectedItem.ToString();
 
+                this.Hide();
                 //if(accountType == "Tenant Driver")
                 //{
                 //    userView user = new userView();
@@ -51,8 +53,9 @@ namespace WindowsFormsApp1
                 {
                     case "Tenant Driver":
 
-                        userView user = new userView();
-                        user.ShowDialog();
+                        defDriverContract driverContract = new defDriverContract();
+                        //userView user = new userView();
+                        driverContract.ShowDialog();
                         break;
 
                     case "Private Charger Opeartor":
@@ -70,7 +73,7 @@ namespace WindowsFormsApp1
                         user3.ShowDialog();
                         break;
                 }
-
+                
                 this.Close();
             }
         }
