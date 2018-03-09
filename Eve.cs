@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public Eve()
         {
             InitializeComponent();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -28,13 +29,26 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            userView user = new userView();
+            
 
+            string userName = textBox1.Text;
+            string passWord = textBox2.Text;
+
+            if(userName == "roger"&&passWord == "roger")
+            {
+            userView user = new userView();
             this.Hide();
             user.ShowDialog();
             //Get the value of comboBox1 
             //MessageBox.Show(comboBox1.SelectedText);
             this.Close();
+            }
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

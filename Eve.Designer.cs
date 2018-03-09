@@ -53,6 +53,7 @@
             this.Signup = new System.Windows.Forms.LinkLabel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -63,273 +64,181 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(367, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(211, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Choose account type";
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Tenant Driver",
-            "Private Charger Opeartor",
-            "Local Energy Provider",
-            "EV Fleet"});
-            this.comboBox1.Location = new System.Drawing.Point(319, 511);
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1"),
+            resources.GetString("comboBox1.Items2"),
+            resources.GetString("comboBox1.Items3")});
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(312, 28);
-            this.comboBox1.TabIndex = 1;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.YellowGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(430, 571);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 36);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(88, 133);
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 130);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(297, 133);
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(129, 130);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(502, 133);
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(129, 130);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(712, 133);
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(129, 130);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             // 
             // linkLabel1
             // 
-            this.linkLabel1.Location = new System.Drawing.Point(734, 335);
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(87, 15);
-            this.linkLabel1.TabIndex = 0;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label5, "label5");
             this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(326, 307);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 24);
-            this.label5.TabIndex = 11;
-            this.label5.Text = " Private";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label2, "label2");
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(536, 307);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 24);
-            this.label2.TabIndex = 12;
-            this.label2.Text = " Local";
             // 
             // Ev
             // 
-            this.Ev.AutoSize = true;
-            this.Ev.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.Ev, "Ev");
             this.Ev.ForeColor = System.Drawing.Color.Gray;
-            this.Ev.Location = new System.Drawing.Point(759, 326);
             this.Ev.Name = "Ev";
-            this.Ev.Size = new System.Drawing.Size(48, 24);
-            this.Ev.TabIndex = 13;
-            this.Ev.Text = " EV ";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label3, "label3");
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(105, 326);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 24);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Tenant";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label4, "label4");
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(105, 350);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 24);
-            this.label4.TabIndex = 15;
-            this.label4.Text = " Driver";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label6, "label6");
             this.label6.ForeColor = System.Drawing.Color.Gray;
-            this.label6.Location = new System.Drawing.Point(326, 355);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 24);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Operator";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label7, "label7");
             this.label7.ForeColor = System.Drawing.Color.Gray;
-            this.label7.Location = new System.Drawing.Point(326, 331);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 24);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Charger";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label8, "label8");
             this.label8.ForeColor = System.Drawing.Color.Gray;
-            this.label8.Location = new System.Drawing.Point(536, 335);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 24);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Energy";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label9, "label9");
             this.label9.ForeColor = System.Drawing.Color.Gray;
-            this.label9.Location = new System.Drawing.Point(536, 359);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 24);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Provider";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label10, "label10");
             this.label10.ForeColor = System.Drawing.Color.Gray;
-            this.label10.Location = new System.Drawing.Point(759, 350);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(56, 24);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Fleet";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(319, 430);
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(312, 25);
-            this.textBox1.TabIndex = 21;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(319, 472);
+            resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.Name = "textBox2";
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox2.Size = new System.Drawing.Size(312, 25);
-            this.textBox2.TabIndex = 22;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(106, 582);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 17);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "No account?";
             // 
             // Signup
             // 
             this.Signup.ActiveLinkColor = System.Drawing.Color.YellowGreen;
-            this.Signup.AutoSize = true;
+            resources.ApplyResources(this.Signup, "Signup");
             this.Signup.DisabledLinkColor = System.Drawing.Color.YellowGreen;
-            this.Signup.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Signup.ForeColor = System.Drawing.Color.YellowGreen;
             this.Signup.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.Signup.LinkColor = System.Drawing.Color.YellowGreen;
             this.Signup.LinkVisited = true;
-            this.Signup.Location = new System.Drawing.Point(202, 582);
             this.Signup.Name = "Signup";
-            this.Signup.Size = new System.Drawing.Size(53, 17);
-            this.Signup.TabIndex = 24;
             this.Signup.TabStop = true;
-            this.Signup.Text = "Signup";
             this.Signup.VisitedLinkColor = System.Drawing.Color.YellowGreen;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(276, 430);
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(26, 25);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 25;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(276, 472);
+            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(26, 25);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 26;
             this.pictureBox6.TabStop = false;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.YellowGreen;
+            resources.ApplyResources(this.linkLabel2, "linkLabel2");
+            this.linkLabel2.DisabledLinkColor = System.Drawing.Color.YellowGreen;
+            this.linkLabel2.ForeColor = System.Drawing.Color.YellowGreen;
+            this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel2.LinkColor = System.Drawing.Color.YellowGreen;
+            this.linkLabel2.LinkVisited = true;
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.YellowGreen;
             // 
             // Eve
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AllowDrop = true;
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(973, 651);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.Signup);
@@ -395,6 +304,7 @@
         private System.Windows.Forms.LinkLabel Signup;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

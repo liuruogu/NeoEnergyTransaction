@@ -47,6 +47,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.Signup = new System.Windows.Forms.LinkLabel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -157,7 +161,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.DarkGray;
-            this.label9.Location = new System.Drawing.Point(177, 341);
+            this.label9.Location = new System.Drawing.Point(11, 92);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(61, 24);
             this.label9.TabIndex = 12;
@@ -168,7 +172,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkGray;
-            this.label10.Location = new System.Drawing.Point(524, 266);
+            this.label10.Location = new System.Drawing.Point(8, 17);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(188, 24);
             this.label10.TabIndex = 13;
@@ -179,7 +183,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.DarkGray;
-            this.label11.Location = new System.Drawing.Point(177, 266);
+            this.label11.Location = new System.Drawing.Point(11, 17);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(188, 24);
             this.label11.TabIndex = 14;
@@ -190,7 +194,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.DarkGray;
-            this.label12.Location = new System.Drawing.Point(524, 338);
+            this.label12.Location = new System.Drawing.Point(8, 89);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(61, 24);
             this.label12.TabIndex = 15;
@@ -201,7 +205,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.DarkGray;
-            this.label13.Location = new System.Drawing.Point(177, 415);
+            this.label13.Location = new System.Drawing.Point(11, 166);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(168, 24);
             this.label13.TabIndex = 16;
@@ -212,7 +216,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.DarkGray;
-            this.label14.Location = new System.Drawing.Point(524, 415);
+            this.label14.Location = new System.Drawing.Point(8, 166);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(188, 24);
             this.label14.TabIndex = 17;
@@ -224,7 +228,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(528, 487);
+            this.button4.Location = new System.Drawing.Point(12, 238);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(218, 36);
             this.button4.TabIndex = 19;
@@ -237,7 +241,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(181, 487);
+            this.button1.Location = new System.Drawing.Point(15, 238);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 36);
             this.button1.TabIndex = 18;
@@ -254,7 +258,7 @@
             this.Signup.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.Signup.LinkColor = System.Drawing.Color.YellowGreen;
             this.Signup.LinkVisited = true;
-            this.Signup.Location = new System.Drawing.Point(670, 557);
+            this.Signup.Location = new System.Drawing.Point(760, 576);
             this.Signup.Name = "Signup";
             this.Signup.Size = new System.Drawing.Size(76, 23);
             this.Signup.TabIndex = 25;
@@ -263,21 +267,39 @@
             this.Signup.VisitedLinkColor = System.Drawing.Color.YellowGreen;
             this.Signup.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Signup_LinkClicked);
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Location = new System.Drawing.Point(128, 210);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(288, 346);
+            this.panel1.TabIndex = 26;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Location = new System.Drawing.Point(548, 210);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(288, 346);
+            this.panel2.TabIndex = 27;
+            // 
             // userView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(907, 695);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.Signup);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -290,8 +312,11 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "userView";
-            this.Text = "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\";
             this.Load += new System.EventHandler(this.userView_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,5 +343,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.LinkLabel Signup;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
