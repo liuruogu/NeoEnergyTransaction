@@ -212,3 +212,9 @@ C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.pdb
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.exe
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.pdb
 C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.defDriverContract.resources
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.exe.manifest
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\bin\Debug\NeoEvePlus.application
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.exe.manifest
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\NeoEvePlus.application
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.chargerView.resources
+C:\Users\Roger\source\repos\EvePlus\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.defChargerContract.resources

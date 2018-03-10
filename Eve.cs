@@ -34,20 +34,11 @@ namespace WindowsFormsApp1
             string userName = textBox1.Text;
             string passWord = textBox2.Text;
 
-            //if(comboBox1.SelectedItem!= null)
-            //{ }
-            //    string accountType = comboBox1.SelectedItem.ToString();
-
             if (userName == "roger"&&passWord == "roger"&&comboBox1.SelectedItem != null)
             {
                 string accountType = comboBox1.SelectedItem.ToString();
 
                 this.Hide();
-                //if(accountType == "Tenant Driver")
-                //{
-                //    userView user = new userView();
-                //    user.ShowDialog();
-                //}
 
                 switch (accountType)
                 {
@@ -55,22 +46,24 @@ namespace WindowsFormsApp1
 
                         defDriverContract driverContract = new defDriverContract();
                         //userView user = new userView();
+                        //user.ShowDialog();
                         driverContract.ShowDialog();
                         break;
 
                     case "Private Charger Opeartor":
-                        userView user1 = new userView();
-                        user1.ShowDialog();
+
+                        defChargerContract charger = new defChargerContract();
+                        charger.ShowDialog();
                         break;
 
-                    case "Local Energy ProviderTenant Driver":
-                        userView user2 = new userView();
-                        user2.ShowDialog();
+                    case "Local Energy Provider":
+                        defChargerContract charger2 = new defChargerContract();
+                        charger2.ShowDialog();
                         break;
 
                     case "EV Fleet":
-                        userView user3 = new userView();
-                        user3.ShowDialog();
+                        defChargerContract charger3 = new defChargerContract();
+                        charger3.ShowDialog();
                         break;
                 }
                 

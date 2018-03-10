@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Neo;
-using Neo.VM;
 using System.Windows.Forms;
-
+ 
 namespace WindowsFormsApp1
 {
     static class Program
@@ -16,7 +15,6 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Eve());
