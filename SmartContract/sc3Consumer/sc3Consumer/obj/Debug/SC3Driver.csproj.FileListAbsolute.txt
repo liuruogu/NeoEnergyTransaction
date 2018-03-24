@@ -1,0 +1,7 @@
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\bin\Debug\sc3Consumer.dll
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\bin\Debug\sc3Consumer.pdb
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\bin\Debug\Neo.SmartContract.Framework.dll
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\obj\Debug\SC3Driver.csprojResolveAssemblyReference.cache
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\obj\Debug\SC3Driver.csproj.CoreCompileInputs.cache
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\obj\Debug\sc3Consumer.dll
+C:\Users\jinhu\source\repos\sc3Consumer\sc3Consumer\obj\Debug\sc3Consumer.pdb

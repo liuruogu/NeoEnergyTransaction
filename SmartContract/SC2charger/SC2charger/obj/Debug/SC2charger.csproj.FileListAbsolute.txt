@@ -1,0 +1,7 @@
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\bin\Debug\SC2charger.dll
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\bin\Debug\SC2charger.pdb
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\bin\Debug\Neo.SmartContract.Framework.dll
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\obj\Debug\SC2charger.csprojResolveAssemblyReference.cache
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\obj\Debug\SC2charger.csproj.CoreCompileInputs.cache
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\obj\Debug\SC2charger.dll
+C:\Users\jinhu\source\repos\SC2charger\SC2charger\obj\Debug\SC2charger.pdb
